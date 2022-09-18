@@ -1,0 +1,5 @@
+Steps I'd use to add another BoxBug actor to the grid:
+1. Initialize ActorWorld
+2. Create a new BoxBug and set it's sideLength
+3. Add the BoxBug to a point in the ActorWorld
+4. show the ActorWorld
