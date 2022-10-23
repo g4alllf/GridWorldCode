@@ -110,6 +110,11 @@ public class MazeBug extends Bug {
 		return valid;
 	}
 	
+	/**
+	 * Check if the bug can move.
+	 * If the Bug can move, then choose the most selected direction to move.
+	 * @return if the bug can move.
+	 */
 	public boolean canMove() {
 		if(originLocation == null) {
 			originLocation = getLocation();
